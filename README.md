@@ -10,16 +10,15 @@
 Reproducible, leakage-safe feature selection that works directly on image pixels. RPM finds the informative region of a set of registered scientific images, working on the
 pixels themselves with no collapse to engineered features, and returns a robust predictor
 that reads only that region, a reproducible selected region, and an honest performance
-estimate. It is the image sibling of
-[RobustModelMaker](https://github.com/amaxiom/RobustModelMaker). 
+estimate. 
 
 Second sibling in the RobustMaker family:
 
 | Package | Selects | Data |
 |---|---|---|
-| RobustModelMaker (RMM) | columns | tabular features |
+| [RobustModelMaker](https://github.com/amaxiom/RobustModelMaker) (RMM) | columns | tabular features |
 | RobustPixelMaker (RPM) | patches | scientific images |
-| RobustSignalMaker (RSM) | points and bands | signals and spectra |
+| [RobustSignalMaker](https://github.com/amaxiom/RobustSignalMaker) (RSM) | points and bands | signals and spectra |
 
 
 ## Why RPM?
