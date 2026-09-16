@@ -5,9 +5,7 @@
 [![Version](https://img.shields.io/badge/version-0.2.0-31688e.svg)](CHANGELOG.md)
 [![Tests](https://img.shields.io/badge/tests-217-21918c.svg)](tests/)
 [![Coverage](https://img.shields.io/badge/coverage-98%25-22a884.svg)](tests/)
-<!-- Once the package is live on PyPI, add:
 [![PyPI](https://img.shields.io/pypi/v/robustpixelmaker.svg?color=2a788e)](https://pypi.org/project/robustpixelmaker/)
-It renders as a red "invalid" badge until then, so it is held back. -->
 
 Reproducible, leakage-safe feature selection that works directly on image pixels. RPM finds the informative region of a set of registered scientific images, working on the
 pixels themselves with no collapse to engineered features, and returns a robust predictor
