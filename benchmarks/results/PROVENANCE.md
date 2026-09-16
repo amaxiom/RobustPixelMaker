@@ -71,7 +71,6 @@ affected by the sec.20 correction.
 | `medmnist2_*`, `MEDMNIST2_SUMMARY.md` | 2026-07-27 | extended MedMNIST sets, full tier only |
 | `lam_frontier_medmnist-breast.*` | 2026-07-27 | the breast sparsity frontier, full tier only |
 | `gate_region_*`, `GATE_REGION_SUMMARY.md` | 2026-07-26 | the region-size gate study behind the L0 default |
-| `recovery_*.png`, `score_coverage_frontier.png` | 2026-07-26 | superseded by the prefixed `synthetic_*` figures |
 | `boot_*`, `BOOT_SUMMARY.md` | 2026-08-03 | the bootstrap convergence study (B sweep) |
 | `showcase_derma_*`, `mask_medmnist-derma.png` | 2026-08-03 | the registered-prediction showcase, FINDINGS sec.10 |
 
@@ -106,6 +105,12 @@ and records the machine conditions beside every number.
 | `timing_machine.json` | the machine conditions recorded beside that run |
 | `TIMING_PROVISIONAL.md` | why the above is stamped `clean_run: false` and is **not** quotable |
 | `await_idle.out` | the raw 40-hour poll, 238 samples from 2026-09-03 to 2026-09-05, that never found a quiet machine. The evidence behind `TIMING_PROVISIONAL.md` |
+
+## Removed
+
+| file group | why |
+|---|---|
+| `recovery_stability.png`, `recovery_sweeps.png`, `score_coverage_frontier.png` | 2026-07-26, deleted 2026-09-16. `run_synthetic_benchmark.py` prefixes its figures unconditionally, so nothing could regenerate these and no rerun would refresh them. `benchmarks/README.md` still listed them as the script's current outputs, which pointed a reader at July figures. Replaced by the `synthetic_*` set |
 
 ## Raw run logs
 
