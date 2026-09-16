@@ -1,0 +1,15 @@
+
+medmnist-breast lam=0.03: n=780 patches=49
+  pi histogram [0,.1) [.1,.2) [.2,.4) [.4,.6) [.6,.8) [.8,1]: [5, 13, 21, 6, 2, 2]
+  pi mean=0.28 max=0.90 frac(pi>0.8)=0.04 frac(pi<0.2)=0.37
+  ambiguous fraction (0.2<=pi<0.8) = 0.59
+
+medmnist-breast lam=0.003: n=780 patches=49
+  pi histogram [0,.1) [.1,.2) [.2,.4) [.4,.6) [.6,.8) [.8,1]: [0, 0, 0, 1, 25, 23]
+  pi mean=0.79 max=1.00 frac(pi>0.8)=0.43 frac(pi<0.2)=0.00
+  ambiguous fraction (0.2<=pi<0.8) = 0.53
+
+medmnist-blood lam=0.03: n=3000 patches=49
+  pi histogram [0,.1) [.1,.2) [.2,.4) [.4,.6) [.6,.8) [.8,1]: [22, 4, 3, 1, 4, 15]
+  pi mean=0.39 max=1.00 frac(pi>0.8)=0.27 frac(pi<0.2)=0.53
+  ambiguous fraction (0.2<=pi<0.8) = 0.16

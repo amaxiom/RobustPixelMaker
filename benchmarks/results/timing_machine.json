@@ -1,0 +1,45 @@
+{
+  "before": {
+    "timestamp": "2026-09-06 12:25:33",
+    "cpu_count": 8,
+    "cpu_busy_percent": 16.5,
+    "n_competing_python": 1,
+    "n_active_python": 1,
+    "competing": [
+      {
+        "pid": 29572,
+        "cpu_percent": 94.0,
+        "active": true,
+        "cmd": "C:\\ProgramData\\anaconda3\\python.exe -m pytest tests/unit_test_suite.py -q --no-header -p no:cacheprovider --tb=line -k M"
+      }
+    ],
+    "python": "3.9.10",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.6.1"
+  },
+  "after": {
+    "timestamp": "2026-09-06 12:45:46",
+    "cpu_count": 8,
+    "cpu_busy_percent": 75.9,
+    "n_competing_python": 1,
+    "n_active_python": 1,
+    "competing": [
+      {
+        "pid": 32624,
+        "cpu_percent": 293.0,
+        "active": true,
+        "cmd": "C:\\ProgramData\\anaconda3\\python.exe C:/Users/Amanda/AppData/Local/Temp/claude/C--Users-Amanda/03ddb386-0220-4352-a860-4d"
+      }
+    ],
+    "python": "3.9.10",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.6.1"
+  },
+  "clean_run": false,
+  "forced": true,
+  "repeats": 3,
+  "n_iter": 300,
+  "total_minutes": 20.203676663333333
+}
