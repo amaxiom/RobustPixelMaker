@@ -92,7 +92,9 @@ py benchmarks/run_lam_frontier.py --dataset mnist-3v8
 - `synthetic_results.csv`: one row per (scenario, method, seed) with all metrics.
 - `SYNTHETIC_SUMMARY.md`: headline table, binary score/coverage/stability table,
   recovery-vs-factor tables, and embedded figures.
-- `recovery_stability.png`, `recovery_sweeps.png`, `score_coverage_frontier.png`.
+- `synthetic_recovery_stability.png`, `synthetic_recovery_sweeps.png`,
+  `synthetic_score_coverage_frontier.png`. The prefix is `--out-prefix`, which
+  defaults to `synthetic`, so a rerun under another prefix writes its own set.
 
 ## Real-world datasets
 
